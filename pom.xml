@@ -6,7 +6,11 @@
 
     <groupId>com.lhf.springcloud</groupId>
     <artifactId>spring-cloud-demo</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>jwt-server</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

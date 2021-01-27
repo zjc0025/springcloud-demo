@@ -2,30 +2,51 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-client" />
-        <module name="eureka-server" />
+        <module name="mysql-data-demo" />
         <module name="file-upload" />
+        <module name="zuul-gateway" />
+        <module name="hystrix-server-bookstore" />
         <module name="form-submit" />
         <module name="hystrix-consumer-reading" />
-        <module name="hystrix-server-bookstore" />
-        <module name="jpa-data-demo" />
-        <module name="mysql-data-demo" />
-        <module name="redis-demo" />
         <module name="ribbon-consumer-user" />
+        <module name="redis-demo" />
+        <module name="eureka-server" />
+        <module name="jpa-data-demo" />
+        <module name="jwt-server" />
+        <module name="eureka-client" />
+        <module name="ribbon-say-hello" />
+        <module name="zuul-book" />
         <module name="ribbon-consumer-user1" />
         <module name="ribbon-consumer-user2" />
-        <module name="ribbon-say-hello" />
-        <module name="spring-cloud-demo" />
-        <module name="zuul-book" />
-        <module name="zuul-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ribbon-say-hello1" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="file-upload" options="-parameters" />
+      <module name="form-submit" options="-parameters" />
+      <module name="hystrix-consumer-reading" options="-parameters" />
+      <module name="hystrix-server-bookstore" options="-parameters" />
+      <module name="jpa-data-demo" options="-parameters" />
+      <module name="jwt-server" options="-parameters" />
+      <module name="mysql-data-demo" options="-parameters" />
+      <module name="redis-demo" options="-parameters" />
+      <module name="ribbon-consumer-user" options="-parameters" />
+      <module name="ribbon-consumer-user1" options="-parameters" />
+      <module name="ribbon-consumer-user2" options="-parameters" />
+      <module name="ribbon-say-hello" options="-parameters" />
+      <module name="zuul-book" options="-parameters" />
+      <module name="zuul-gateway" options="-parameters" />
+    </option>
   </component>
 </project>
