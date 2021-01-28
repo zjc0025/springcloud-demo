@@ -4,30 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65a84fae-089d-4c48-b337-c1a8327a4c57" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spring-cloud-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-server/jwt-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-server/src/main/java/com/xxx/jwt/JwtServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-server/src/main/java/com/xxx/jwt/config/AuthenticationInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-server/src/main/java/com/xxx/jwt/config/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-server/src/main/java/com/xxx/jwt/config/PassToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-server/src/main/java/com/xxx/jwt/config/UserLoginToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-server/src/main/java/com/xxx/jwt/controller/UserApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-server/src/main/java/com/xxx/jwt/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-server/src/main/java/com/xxx/jwt/service/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-server/src/main/java/com/xxx/jwt/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwt-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="65a84fae-089d-4c48-b337-c1a8327a4c57" name="Default" comment="1">
+      <change afterPath="$PROJECT_DIR$/jwt-server/src/test/java/easyexcel/DemoData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-server/src/test/java/easyexcel/ExcelFillCellMergeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-server/src/test/java/easyexcel/ExcelMergeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload-dir/0711xqxmghgqdnzmbz6.jpg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload-dir/593901a296122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jwt-server/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +42,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -92,7 +79,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jwt-server/src/main/resources" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
@@ -111,7 +98,7 @@
       <recent name="com.lhf.springcloud.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.JwtServerApplication">
+  <component name="RunManager" selected="JUnit.ExcelMergeTest.test">
     <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lhf.springcloud.EurekaServerApplication" />
       <module name="eureka-server" />
@@ -143,20 +130,6 @@
     <configuration name="JpaDataDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lhf.springcloud.JpaDataDemoApplication" />
       <module name="jpa-data-demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lhf.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lhf.springcloud.RedisDemoApplication" />
-      <module name="redis-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -204,21 +177,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration name="ExcelMergeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jwt-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easyexcel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="easyexcel" />
+      <option name="MAIN_CLASS_NAME" value="easyexcel.ExcelMergeTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -353,7 +341,6 @@
       <item itemvalue="Application.RibbonSayHelloApplication-8084" />
       <item itemvalue="Application.EurekaServerApplication" />
       <item itemvalue="Application.FileUploadApplication" />
-      <item itemvalue="Application.RedisDemoApplication" />
       <item itemvalue="Application.JpaDataDemoApplication" />
       <item itemvalue="HTTP Request.generated-requests#1" />
       <item itemvalue="Spring Boot.FileUploadApplication" />
@@ -372,14 +359,15 @@
       <item itemvalue="Spring Boot.RedisDemoApplication" />
       <item itemvalue="Spring Boot.EurekaClientApplication" />
       <item itemvalue="Spring Boot.JwtServerApplication" />
+      <item itemvalue="JUnit.ExcelMergeTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExcelMergeTest.test" />
         <item itemvalue="HTTP Request.generated-requests#1" />
         <item itemvalue="Application.FileUploadApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="Application.JpaDataDemoApplication" />
-        <item itemvalue="Application.RedisDemoApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -398,8 +386,17 @@
       <workItem from="1611123397232" duration="1896000" />
       <workItem from="1611125320062" duration="1478000" />
       <workItem from="1611197235270" duration="2808000" />
-      <workItem from="1611711329163" duration="5064000" />
+      <workItem from="1611711329163" duration="7881000" />
+      <workItem from="1611812246382" duration="1607000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1611716603217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611716603217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,5 +413,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
