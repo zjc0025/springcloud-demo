@@ -16,7 +16,11 @@ import java.util.List;
 
 @Data
 public class ExcelFillCellMergeStrategy implements CellWriteHandler {
+
+    //需要合并的列
     private int[] mergeColumnIndex;
+
+    //开始从改行开始合并
     private int mergeRowIndex;
 
     public ExcelFillCellMergeStrategy() {
@@ -45,8 +49,8 @@ public class ExcelFillCellMergeStrategy implements CellWriteHandler {
         int curColIndex = cell.getColumnIndex();
 
         if (curRowIndex > mergeRowIndex) {
-            for (int i = 0; i < mergeColumnIndex.length; i++) {
-                if (curColIndex == mergeColumnIndex[i]) {
+            for (int columnIndex : mergeColumnIndex) {
+                if (curColIndex == columnIndex) {
                     mergeWithPrevRow(writeSheetHolder, cell, curRowIndex, curColIndex);
                     break;
                 }
